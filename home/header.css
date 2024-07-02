@@ -1,0 +1,34 @@
+header{
+    background-color: #4C4C4C;
+    
+}
+
+.list-container{
+    display: flex;
+    padding: 2% 0;
+}
+
+.logo-image{
+    width: 100px;
+    height: 100px;
+}
+
+.logo-place h2{
+    margin: 0;
+}
+
+.bar{
+    width: 25%;
+}
+.bar ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.bar ul li{
+    padding: 1%;
+    width: fit-content;
+}
+
