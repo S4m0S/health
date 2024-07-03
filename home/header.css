@@ -6,19 +6,29 @@ header{
 .list-container{
     display: flex;
     padding: 2% 0;
+    margin: auto;
+    width: 70%;
 }
 
-.logo-image{
-    width: 100px;
-    height: 100px;
+.header-container{
+    margin: auto;
+    z-index: 500;
+    position: relative;
 }
 
 .logo-place h2{
+    display: block;
     margin: 0;
+    font-size: 40px;
+}
+
+.logo-place{
+    margin-right: 10%;
 }
 
 .bar{
-    width: 25%;
+    width: 50%;
+    margin-right: 10%;
 }
 .bar ul{
     list-style: none;
@@ -28,7 +38,24 @@ header{
     width: 100%;
 }
 .bar ul li{
-    padding: 1%;
+    padding: 3%;
     width: fit-content;
+    font-size: 24px;
+}
+
+.right-header-part a{
+    
+    padding: 0;
+    margin: 0;
+}
+.right-header-part{
+    font-size: 24px;
+    
+}
+
+header a {
+    font-style: normal;
+    color: white;
+    text-decoration-style:none;
 }
 
